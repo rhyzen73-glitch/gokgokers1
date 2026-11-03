@@ -1,0 +1,157 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* LOGIN AND REGISTER */
+
+.auth-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.auth-box {
+    background: white;
+    padding: 30px;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 3px 12px #ccc;
+}
+
+.auth-box h2 {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #219653;
+    color: white;
+    padding: 11px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #176b3b;
+}
+
+.auth-box button {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.auth-box p {
+    margin-top: 12px;
+}
+
+a {
+    color: #219653;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+header {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header button {
+    background: #e74c3c;
+    margin-top: 15px;
+}
+
+/* PRODUCTS */
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+.container h2 {
+    margin-bottom: 20px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px #ddd;
+}
+
+.product .emoji {
+    font-size: 55px;
+}
+
+.product h3 {
+    margin: 12px 0;
+}
+
+.product button {
+    margin-top: 12px;
+    width: 100%;
+}
+
+/* CART AND CHECKOUT */
+
+.cart, .checkout {
+    background: white;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.cart-item button {
+    padding: 7px 12px;
+    margin: 0 3px;
+}
+
+.cart h3 {
+    margin-top: 20px;
+}
